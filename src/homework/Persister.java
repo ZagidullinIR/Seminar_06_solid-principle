@@ -6,8 +6,7 @@ public class Persister{
     public Persister(User user){
         this.user = user;
     }
-
-    public void save(){
+    public  void save(){
         System.out.println("Save user: " + user.getName());
     }
 }

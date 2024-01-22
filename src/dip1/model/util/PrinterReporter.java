@@ -1,10 +1,11 @@
 package dip1.model.util;
 
+import dip1.model.Report;
 import dip1.model.ReportItem;
 
 import java.util.List;
 
-public class ReportPrinter {
+public class PrinterReporter implements Reportable {
     public void output(List<ReportItem> items) {
         System.out.println("Output to printer");
         for (ReportItem item : items) {

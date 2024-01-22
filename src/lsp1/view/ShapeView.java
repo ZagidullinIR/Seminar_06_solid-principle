@@ -1,11 +1,11 @@
 package lsp1.view;
 
-import lsp1.shape.Rectangle;
+import lsp1.shape.Quadrliteral;
 
 public class ShapeView {
-    private final Rectangle rectangle;
+    private final Quadrliteral rectangle;
 
-    public ShapeView(Rectangle rectangle) {
+    public ShapeView(Quadrliteral rectangle) {
         this.rectangle = rectangle;
     }
 
